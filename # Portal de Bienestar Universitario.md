@@ -10,24 +10,29 @@ Este proyecto es un portal web para la gestión y promoción del bienestar unive
 
 ## Instalación y ejecución local
 
+## Instalación y ejecución local
+
 1. **Clona el repositorio:**
 
-   ```sh
-   git clone https://github.com/gcaceres17/bienestar_universitario.git
-   cd bienestar_universitario/src
-   ```
+    ```sh
+    git clone https://github.com/usuario/bienestar_universitario.git
+    cd bienestar_universitario
+    ```
 
-2. **Inicia el servidor PHP integrado:**
+2. **Construye y ejecuta el proyecto con Docker:**
 
-   ```sh
-   php -S localhost:8000
-   ```
+    Asegúrate de tener Docker instalado. Luego ejecuta:
+
+    ```sh
+    docker build -t bienestar_universitario .
+    docker run -p 8000:80 bienestar_universitario
+    ```
 
 3. **Abre tu navegador y visita:**
 
-   ```
-   http://localhost:8000
-   ```
+    ```
+    http://localhost:8000
+    ```
 
 ## Estructura principal
 
