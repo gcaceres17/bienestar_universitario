@@ -13,11 +13,25 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 ?>
 
 <?php include "includes/header.php"; ?>
-<h2>Login</h2>
-<form method="POST" action="">
-    <label for="apellido">Apellido:</label>
-    <input type="text" name="apellido" required>
-    <button type="submit">Ingresar</button>
-</form>
-<?php if (isset($error)) echo "<p class='error'>$error</p>"; ?>
+
+<h2>Iniciar sesión</h2>
+
+<div class="contact-form">
+    <form method="POST" action="">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+
+        <label for="usuario">Usuario o correo electrónico:</label>
+        <input type="text" id="usuario" name="usuario" required>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+
+        <button type="submit">Ingresar</button>
+    </form>
+</div>
+
 <?php include "includes/footer.php"; ?>
