@@ -7,12 +7,5 @@
 </head>
 <body>
 <header>
-   <h1>Portal de Bienestar Universitario Integral</h1>
-    <nav>
-        <a href="index.php">Inicio</a>
-        <a href="contacto.php">Contáctenos</a>
-        <a href="blog.php">Blog</a>
-    </nav>
+   <h1>Iniciar sesión</h1>
 </header>
-</body>
-</html>
