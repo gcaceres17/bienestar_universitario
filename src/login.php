@@ -1,4 +1,5 @@
 <?php
+//este valida solo los apellidos cargados//
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $apellido = strtolower(trim($_POST['apellido']));
     $permitidos = ['caceres', 'leguizamon', 'benitez', 'lopez', 'ramirez'];
