@@ -37,11 +37,9 @@
 </section>
 
 <section class="propuesta-card">
-    <h3>Propuesta individual <span class="autor">- Giovanni Cáceres</span></h3>
+    <h3>Propuesta individual <span class="autor">- Sergio Lopez</span></h3>
     <p>
-        Mi propuesta para esta sección es incorporar un formulario activo que esté integrado con una base de datos o correo institucional,
-        de forma que cualquier estudiante pueda dejar su mensaje y recibir respuesta automática o derivación a los servicios correspondientes.<br>
-        Además, propongo incluir un <strong>mapa interactivo</strong> con las ubicaciones físicas de los centros de bienestar en la facultad.
+        aca propuesta
     </p>
 </section>
 
