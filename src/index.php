@@ -7,6 +7,19 @@
         Bienvenidos al Portal de Bienestar Universitario Integral
     </h2>
 
+    <section class="bienestar-card">
+    <div class="bienestar-img-container">
+        <img src="assets/bienestar.png" alt="Bienestar universitario">
+    </div>
+    <div class="bienestar-info">
+        <p>
+            Esta imagen representa la importancia del bienestar integral en la vida universitaria.<br>
+            La salud mental y física son fundamentales para el éxito académico y personal de los estudiantes.<br>
+            En el portal, buscamos promover hábitos saludables y brindar apoyo a la comunidad estudiantil.
+        </p>
+    </div>
+    </section>
+
     <div class="card">
         <h3>Integrantes del Grupo</h3>
         <ul>
@@ -17,6 +30,7 @@
             <li>Henry Ramírez</li>
         </ul>
     </div>
+    
 
     <div class="card">
         <h3>Descripción del Proyecto</h3>
