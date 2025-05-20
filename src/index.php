@@ -40,17 +40,15 @@
     </div>
 
     <div class="card">
-        <h3>Logo</h3>
+        <h3>Valor</h3>
         <p><em>
-            Representa la importancia del bienestar integral en la vida universitaria.<br>
             La salud mental y física son fundamentales para el éxito académico y personal de los estudiantes.<br>
             En el portal, buscamos promover hábitos saludables y brindar apoyo a la comunidad estudiantil.
         </em></p>
     </div>
-    <div class="bienestar-img-container">
+  
+</div>
+<div class="bienestar-img-container">
         <img src="assets/bienestar.png" alt="Bienestar universitario">
     </div>
-    
-</div>
-
 <?php include "includes/footer.php"; ?>
